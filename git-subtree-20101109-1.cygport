@@ -1,0 +1,12 @@
+GIT_URI="git://github.com/apenwarr/git-subtree.git"
+inherit git
+
+HOMEPAGE="http://github.com/apenwarr/git-subtree"
+
+MAKEOPTS+=" prefix=/usr"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake doc
+}

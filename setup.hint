@@ -1,0 +1,6 @@
+category: Devel
+requires: bash git
+sdesc: "Merge and split Git subtrees"
+ldesc: "Git Subtrees allow subprojects to be included within a 
+subdirectory of the main project, optionally including the subproject's 
+entire history."
